@@ -144,7 +144,7 @@ const Home = () => {
       alignItems={'center'}
       h={'100%'}
       overflow={'overlay'}
-      background={`url('https://storage.mzc77.com/storagee/duomiai/imgs/bj.jpg') center/cover`}
+      background={`url('https://storage.mzc77.com/storagee/aiinTax/zhuyebj.png') center/cover`}
     >
       <Box id={'particles-js'} position={'absolute'} top={0} left={0} right={0} bottom={0} />
 
@@ -155,20 +155,20 @@ const Home = () => {
         position={'absolute'}
         userSelect={'none'}
       >
-        <Image src="https://storage.mzc77.com/storagee/duomiai/icon/logo.png" w={['70px', '120px']} h={['70px', '120px']} alt={''}></Image>
+        <Image src="https://storage.mzc77.com/storagee/aiinTax/logo.png" w={['70px', '120px']} h={['70px', '120px']} alt={''}></Image>
         <Box
           fontWeight={'bold'}
           fontSize={['40px', '70px']}
           letterSpacing={'5px'}
           color={'myBlue.600'}
         >
-          DUOM Ai
+          AI IN Tax
         </Box>
         <Box color={'myBlue.600'} fontSize={['15px', '35px']}>
-        DUOMAi知识库
+        Tax财税助手
         </Box>
         <Box color={'myBlue.600'} fontSize={['30px', '50px']}>
-        快速搭建自己的AI知识库
+        您身边的财税小助手
         </Box>
 
         <Button
@@ -194,7 +194,7 @@ const Home = () => {
             </Link>
           )}
 
-          <Box>All rights reserved DUOMAi</Box>
+          <Box>All rights reserved AIintax丨用户协议</Box>
         </Card>
       </Box>
     </Flex>

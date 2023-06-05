@@ -64,7 +64,7 @@ const OpenApi = () => {
         <Box
           my={1}
           as="a"
-          href="https://www.mzc77.com/2322.html"
+          href="https://i.duomilc/2322.html"
           color={'myBlue.800'}
           textDecoration={'underline'}
           target={'_blank'}

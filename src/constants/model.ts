@@ -28,7 +28,7 @@ export type ChatModelItemType = {
 export const ChatModelMap = {
   [OpenAiChatEnum.GPT35]: {
     chatModel: OpenAiChatEnum.GPT35,
-    name: 'DuoMAi',
+    name: 'AItax',
     contextMaxToken: 10000,
     systemMaxToken: 10000,
     maxTemperature: 1.2,

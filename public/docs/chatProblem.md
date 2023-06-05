@@ -1,4 +1,4 @@
-### ⚠️ DUOMAi常见问题丨使用说明
+### ⚠️ AI in tax常见问题丨使用说明
  
 **常见问题**
 🔴 对话遇到错误，接口异常等问题（联系管理员处理或者使用自己的API）
@@ -15,6 +15,6 @@
 🟥 合理合规使用DUOM Ai知识库，搭建同款网站扫码联系微信即可！
 
 **其他问题**
-| 微信扫码体验  | 扫码添加客服微信 |
-| ----------------------- | -------------------- |
-| ![Demo](https://storage.mzc77.com/storagee/duomiai/imgs/duomaixiaochengxu.jpg) | ![Demo](https://storage.mzc77.com/storagee/duomiai/imgs/wxxiaoerlang.png) |
+| 扫码添加客服微信 |
+| -------------------- |
+| ![Demo](https://storage.mzc77.com/storagee/aiinTax/wx.png) |

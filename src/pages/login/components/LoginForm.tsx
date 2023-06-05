@@ -63,7 +63,7 @@ const LoginForm = ({ setPageType, loginSuccess }: Props) => {
   return (
     <>
       <Box fontWeight={'bold'} fontSize={'2xl'} textAlign={'center'}>
-        登录 DUOMAi 
+        登录 AIintax
       </Box>
       <form onSubmit={handleSubmit(onclickLogin)}>
         <FormControl mt={8} isInvalid={!!errors.username}>
@@ -137,7 +137,7 @@ const LoginForm = ({ setPageType, loginSuccess }: Props) => {
           isChecked={agreed}
           onChange={(e) => setAgreed(e.target.checked)}
         >
-          您已知晓并且同意本站所有协议
+          您已知晓并且同意本站用户协议
         </Checkbox>
         </Flex>
         </FormControl>

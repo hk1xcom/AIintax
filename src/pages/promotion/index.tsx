@@ -67,7 +67,7 @@ const OpenApi = () => {
         🧑‍🤝‍🧑我的邀请
         </Box>
         <Box my={2} color={'blackAlpha.600'} fontSize={'sm'}>
-          你可以通过邀请链接邀请好友注册 DUOMAi 账号。好友在 DUOMAi
+          你可以通过邀请链接邀请好友注册 AIintax 账号。好友在 AIintax
           平台的每次充值，你都会获得一定比例的佣金。
         </Box>
         <Flex my={2} alignItems={'center'}>

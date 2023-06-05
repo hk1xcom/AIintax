@@ -82,7 +82,7 @@ const RegisterForm = ({ setPageType, loginSuccess }: Props) => {
   return (
     <>
       <Box fontWeight={'bold'} fontSize={'2xl'} textAlign={'center'}>
-        注册 DUOMAi 账号
+        注册 AIintax 账号
       </Box>
       <form onSubmit={handleSubmit(onclickRegister)}>
         <FormControl mt={5} isInvalid={!!errors.username}>
@@ -183,16 +183,6 @@ const RegisterForm = ({ setPageType, loginSuccess }: Props) => {
         >
           确认注册
         </Button>
-        <Flex mt={2} alignItems="center">
-        <Text fontSize="sm" textAlign="left" mr={2}>
-          确认注册即代表您已同意：
-        </Text>
-        <Text fontSize="sm" textAlign="left">
-          <Link href="https://blog.dmai.top/agreement" target="_blank" color="myBlue.600" textDecoration="underline">
-            ✅本站用户协议
-          </Link>
-        </Text>
-      </Flex>
       </form>
     </>
   );
