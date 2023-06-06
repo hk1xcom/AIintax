@@ -99,7 +99,7 @@ const NumberSetting = () => {
       <Card px={6} py={4}>
         <Flex justifyContent={'space-between'}>
           <Box fontSize={'xl'} fontWeight={'bold'}>
-          🥰账号信息
+          账号信息
           </Box>
           <Button variant={'outline'} size={'xs'} onClick={onclickLogOut}>
             退出登录
@@ -135,27 +135,8 @@ const NumberSetting = () => {
             充值
           </Button>
           </Flex>
-          <Box fontSize={'xs'} color={'blackAlpha.500'}>
-            填写自己的KEY使用AI应用不收费，知识库索引不支持自己的KEY请知晓！
-          </Box>
         </Box>
-        <Flex mt={6} alignItems={'center'}>
-          <Box flex={'0 0 85px'}>opKey:</Box>
-          <Input
-            {...register(`openaiKey`)}
-            maxW={'300px'}
-            placeholder={'openai账号。回车或失去焦点保存'}
-            size={'sm'}
-            onBlur={handleSubmit(onclickSave)}
-            onKeyDown={(e) => {
-              if (e.keyCode === 13) {
-                handleSubmit(onclickSave)();
-              }
-            }}
-          ></Input>
-        </Flex>
       </Card>
-
       <File onSelect={onSelectFile} />
       {/* 充值记录 */}
       <PayRecordTable />

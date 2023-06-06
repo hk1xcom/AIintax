@@ -64,10 +64,10 @@ const OpenApi = () => {
     <Box py={[5, 10]} px={'5vw'}>
       <Card px={6} py={4} position={'relative'}>
         <Box fontSize={'xl'} fontWeight={'bold'}>
-        🧑‍🤝‍🧑我的邀请
+        我的邀请
         </Box>
         <Box my={2} color={'blackAlpha.600'} fontSize={'sm'}>
-          你可以通过邀请链接邀请好友注册 AIintax 账号。好友在 AIintax
+          你可以通过邀请链接邀请好友注册 ombotAi 账号。好友在 ombotAi
           平台的每次充值，你都会获得一定比例的佣金。
         </Box>
         <Flex my={2} alignItems={'center'}>
@@ -89,8 +89,8 @@ const OpenApi = () => {
           <Button
             leftIcon={<MyIcon name="withdraw" w={'22px'} />}
             px={4}
-            title={residueAmount < 50 ? '最低提现额度为50元' : ''}
-            isDisabled={residueAmount < 50}
+            title={residueAmount < 100 ? '最低提现额度为100元' : ''}
+            isDisabled={residueAmount < 100}
             onClick={onOpenWithdraw}
           >
             提现
@@ -151,7 +151,7 @@ const OpenApi = () => {
           <ModalBody textAlign={'center'}>
             <Image
               style={{ margin: 'auto' }}
-              src={'/imgs/wxxiaoerlang.png'}
+              src={'https://storage.mzc77.com/storagee/aiinTax/txwx.png'}
               width={200}
               height={200}
               alt=""
@@ -159,7 +159,7 @@ const OpenApi = () => {
             <Box mt={2}>
               微信号:
               <Box as={'span'} userSelect={'all'}>
-                xiaodongbiu
+              Zhouwswx
               </Box>
             </Box>
             <Box>发送你的邀请链接和需要提现的金额</Box>

@@ -19,19 +19,19 @@ const mailTransport = nodemailer.createTransport({
 
 const emailMap: { [key: string]: any } = {
   [UserAuthTypeEnum.register]: {
-    subject: '您正在注册使用 AIintax 智能财税助手',
-    html: (code: string) => `<div>您注册 AIintax 智能财税助的验证码为：${code} 请勿泄露您的验证码</div>`
+    subject: '您正在注册使用 ombotAi 智能财税助手',
+    html: (code: string) => `<div>您注册 ombotAi 智能财税助的验证码为：${code} 请勿泄露您的验证码</div>`
   },
   [UserAuthTypeEnum.findPassword]: {
-    subject: '您正在进行 AIintax 智能财税助手的密码修改',
-    html: (code: string) => `<div>您修改 AIintax 智能财税助手密码的验证码为：${code} 请勿泄露您的验证码！</div>`
+    subject: '您正在进行 ombotAi 智能财税助手的密码修改',
+    html: (code: string) => `<div>您修改 ombotAi 智能财税助手密码的验证码为：${code} 请勿泄露您的验证码！</div>`
   }
 };
 
 export const sendEmailCode = (email: string, code: string, type: `${UserAuthTypeEnum}`) => {
   return new Promise((resolve, reject) => {
     const options = {
-      from: `"AIintax 智能财税助手" ${myEmail}`,
+      from: `"ombotAi 智能财税助手" ${myEmail}`,
       to: email,
       subject: emailMap[type]?.subject,
       html: emailMap[type]?.html(code)

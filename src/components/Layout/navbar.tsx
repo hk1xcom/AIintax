@@ -18,40 +18,34 @@ const Navbar = () => {
   const navbarList = useMemo(
     () => [
       {
-        label: '聊天',
+        label: 'ombot聊天',
         icon: 'chat',
         link: `/chat?modelId=${lastChatModelId}&chatId=${lastChatId}`,
         activeLink: ['/chat']
       },
       {
-        label: '我的应用',
+        label: '我的AI应用',
         icon: 'model',
         link: `/model?modelId=${lastModelId}`,
         activeLink: ['/model']
       },
       {
-        label: '知识库',
+        label: '财税知识库',
         icon: 'kb',
         link: `/kb`,
         activeLink: ['/kb']
       },
       {
-        label: '应用市场',
+        label: 'AI财税市场',
         icon: 'appStore',
         link: '/model/share',
         activeLink: ['/model/share']
       },
       {
-        label: '邀请',
+        label: '邀请好友',
         icon: 'promotion',
         link: '/promotion',
         activeLink: ['/promotion']
-      },
-      {
-        label: '开发',
-        icon: 'develop',
-        link: '/openapi',
-        activeLink: ['/openapi']
       },
       {
         label: '账号',
@@ -68,7 +62,7 @@ const Navbar = () => {
       flexDirection={'column'}
       alignItems={'center'}
       pt={6}
-      backgroundColor={'#465069'}
+      backgroundColor={'#FFFFFF'}
       h={'100%'}
       w={'100%'}
       boxShadow={'4px 0px 4px 0px rgba(43, 45, 55, 0.01)'}

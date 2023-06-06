@@ -194,7 +194,7 @@ const Home = () => {
             </Link>
           )}
 
-          <Box>All rights reserved AIintax丨用户协议</Box>
+          <Box>All rights reserved ombotAi</Box>
         </Card>
       </Box>
     </Flex>
