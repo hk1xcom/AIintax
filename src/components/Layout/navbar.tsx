@@ -30,13 +30,13 @@ const Navbar = () => {
         activeLink: ['/model']
       },
       {
-        label: '财税知识库',
+        label: '我的知识库',
         icon: 'kb',
         link: `/kb`,
         activeLink: ['/kb']
       },
       {
-        label: 'AI财税市场',
+        label: 'AI市场',
         icon: 'appStore',
         link: '/model/share',
         activeLink: ['/model/share']

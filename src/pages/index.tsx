@@ -162,13 +162,10 @@ const Home = () => {
           letterSpacing={'5px'}
           color={'myBlue.600'}
         >
-          AI IN Tax
-        </Box>
-        <Box color={'myBlue.600'} fontSize={['15px', '35px']}>
-        Tax财税助手
+         ombot-AI
         </Box>
         <Box color={'myBlue.600'} fontSize={['30px', '50px']}>
-        您身边的财税小助手
+        ombot-AI-小助手
         </Box>
 
         <Button
@@ -176,7 +173,7 @@ const Home = () => {
           fontSize={['xl', '3xl']}
           h={'auto'}
           py={[2, 3]}
-          onClick={() => router.push(`/model`)}
+          onClick={() => router.push(`/chat`)}
         >
           点击开始
         </Button>
